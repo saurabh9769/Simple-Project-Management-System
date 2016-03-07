@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @projec.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @projec.description %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @projec.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @projec.end_date %>
+</p>
+
+<%= link_to 'Edit', edit_projec_path(@projec) %> |
+<%= link_to 'Back', projecs_path %>
